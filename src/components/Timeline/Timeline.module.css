@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  flex: 1;
+}
+
+.preview {
+  display: flex;
+  grid-area: 1/1;
+  overflow: hidden;
+}
+
+.progress {
+  display: flex;
+  grid-area: 1/1;
+}

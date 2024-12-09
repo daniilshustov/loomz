@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.item {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+}
+
+.swatch {
+  grid-area: 1/1;
+  width: 32px;
+  height: 32px;
+}
+
+.icon {
+  grid-area: 1/1;
+}

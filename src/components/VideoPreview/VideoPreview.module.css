@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex: 1;
+  place-content: center;
+  place-items: center;
+  background: #111;
+  padding: 20px;
+}

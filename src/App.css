@@ -1,0 +1,28 @@
+.App {
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "CaptionEditor VideoPreview" "Timeline Timeline";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 90px;
+  height: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.CaptionEditor {
+  display: flex;
+  flex-direction: column;
+  grid-area: CaptionEditor;
+  overflow: hidden;
+}
+
+.VideoPreview {
+  display: flex;
+  grid-area: VideoPreview;
+  overflow: hidden;
+}
+
+.Timeline {
+  display: flex;
+  grid-area: Timeline;
+}

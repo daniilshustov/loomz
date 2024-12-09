@@ -1,0 +1,20 @@
+.word {
+  cursor: pointer;
+  word-break: break-all;
+}
+
+.word:hover {
+  background: #fff3;
+}
+
+.time {
+  color: #fff6;
+}
+
+.dialog {
+  background: #1b1b1b;
+  border-radius: 20px;
+  color: #fff;
+  min-width: 240px;
+  padding: 20px;
+}

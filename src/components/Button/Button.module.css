@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  place-items: center;
+  background: none;
+  border-radius: 5px;
+  border: none;
+  color: #ee5e41;
+  cursor: pointer;
+  font-size: 16px;
+  height: 24px;
+  padding: 0;
+  position: relative;
+}
+
+.content {
+  padding: 0 5px;
+}
