@@ -87,13 +87,11 @@ export const CaptionItem = ({
         <Dialog className={styles.dialog}>
           <Stack>
             <TextField autoFocus value={caption.word} onChange={handleChange} />
-            <div>
-              <ColorPicker
-                colors={COLORS}
-                value={caption.color}
-                onChange={handleColorChange}
-              />
-            </div>
+            <ColorPicker
+              colors={COLORS}
+              value={caption.color}
+              onChange={handleColorChange}
+            />
             <Button icon={REMOVE_ICON} onPress={handleRemove}>
               Remove caption
             </Button>
